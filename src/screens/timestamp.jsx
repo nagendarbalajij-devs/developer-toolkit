@@ -1,11 +1,11 @@
 export function Timestamp(props) {
 	return (
-		<div className="grid-flow-row text-left">
-			<div className="text-blue-700 font-mono">
+		<div className=" text-left">
+			<div className="text-primary-focus font-mono">
 				Enter EPOC time or choose time
 			</div>
-			<div>
-				<input className="nput"> </input>
+			<div className="mt-10">
+			<input type="text" placeholder="Type here" className="font-mono input input-bordered input-primary w-full max-w-xs" />
 			</div>
 		</div>
 	);

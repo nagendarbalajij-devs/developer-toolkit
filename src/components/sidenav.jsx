@@ -8,7 +8,7 @@ import { IoTimeOutline } from "react-icons/io5";
 export function SideNavBar(props) {
 	const [current, setCurrent] = useState(options.qrCode);
 	return (
-		<div className="h-[100vh] bg-slate-200 shadow-lg flex flex-col items-center justify-center">
+		<div className="h-[100vh] bg-base-300 shadow-lg flex flex-col items-center justify-center">
 			<div
 				onClick={() => {
 					setCurrent(options.qrCode);
@@ -17,7 +17,7 @@ export function SideNavBar(props) {
 			>
 				<IconButton
 					text="QR Code"
-					icon={<HiOutlineQrcode color={appColors.primary} size={30} />}
+					icon={<HiOutlineQrcode  size={30} />}
 					selected={current === options.qrCode}
 				/>
 			</div>

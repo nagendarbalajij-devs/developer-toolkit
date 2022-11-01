@@ -11,7 +11,7 @@ export function Base64(props) {
 			<div className="flex flex-row justify-center items-center">
 				<div className="mr-6">
 					<textarea
-						className="w-full resize-none p-4 border-2 border-blue-700 rounded-md outline-none"
+						className="w-full resize-none textarea textarea-primary"
 						ref={inputRef}
 						rows={20}
 						cols={50}
@@ -20,9 +20,9 @@ export function Base64(props) {
 						}}
 					/>
 				</div>
-				<div className="ml-6">
+				<div className="">
 					<textarea
-						className="w-full resize-none p-4  select-none font-semibold text-white rounded-md outline-none bg-blue-700"
+						className="w-full resize-none select-none font-semibold text-white textarea textarea-bordered	"
 						rows={20}
 						cols={50}
 						readOnly={true}

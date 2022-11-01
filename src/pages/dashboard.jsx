@@ -32,7 +32,7 @@ export function Dashboard() {
 				/>
 			</div>
 			<div className="flex flex-col w-full justify-start items-start">
-				<div className="px-8 py-10 text-blue-700 font-bold text-2xl font-mono">
+				<div className="px-8 py-10 text-primary font-bold text-2xl font-mono">
 					{page}
 				</div>
 				<div className="px-8 py-6 w-full">{content}</div>
